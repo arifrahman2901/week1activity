@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    background-size: 100%;
+}
+
+.navigasi {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+
+.menu {
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navigasi .menu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a:hover{
+    color: #c88221;
+}
+
+.navigasi .menu li{
+    display: inline;
+    position: relative;
+}
+
+.navigasi .menu li a{
+    display: inline;
+    padding: 12px 24px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
