@@ -44,3 +44,9 @@ a:hover{
     text-decoration: none;
     color: #fff;
 }
+
+.content .description p {
+    font-family: Georgia;
+    font-size: 18px;
+    text-align: center;
+}
