@@ -1,80 +1,142 @@
-body {
-    margin: 0; 
-    font-family: sans-serif;
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    background: brown;
+}
+
+.nav-bar .logo {
+    height: 36px;
+    width: 36px;
+    padding: 12px;
+}
+
+.welcome-message {
+    color: brown;
+    padding: 56px 0px 24px 0px
+}
+
+.nav-bar > a{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: Georgia;
+    font-weight: bold;
+    align-items: center;
+    justify-self: end;
+    color: white;
+    margin-right: 24px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item {
+    flex: 1;
+    margin: 8px;
+    border-width: 1px;
+    border-style: solid;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    border-color: #DDD;
+    overflow: hidden;
+}
+
+div.content {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.desc{
+    padding: 12px 0px;
+}
+
+div.card-footer {
+    padding-left: 12px;
+    padding-right: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.btn-order {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 8px;
+    background: brown;
+    color: white;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+
+.btn-order:hover{
+    background-color: black;
 }
 
 .header {
-    margin: 20px; 
-    color: white; 
-    background: green; 
-    height: 70px;
+    position: relative;
 }
 
-.logo {
-    float: left;
+.header img{
+    width: 100%;
+    height: 320px;
 }
 
-.header .logo img{
-    margin: 0;
-    padding-left: 10px;
-    padding-top: 2px;
-    width: 90px;
+.header .title {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 0;
+    left: 0;
+    background-color: #555;
+    color: white;
+    font-size: 24px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
 }
 
-.navbar {
-    float: left;}
-
-.navbar ul{
-    list-style: none; 
-    padding-top: 10px;}
-
-.navbar ul li{
-    display: inline; 
-    margin: 10px;
+.btn-checkout{
+    padding: 12px 24px;
+    margin: 24px 8px;
+    background: orangered;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
 }
 
-.navbar ul li a{
-    text-decoration: none; 
-    color: white; 
+.btn-checkout:hover{
+    background-color: #555;
 }
 
-.navbar ul li a:hover {
-    border-bottom: 2px solid white;
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
-.gambar {
-    width: 90%; display: 
-    grid; grid-template-columns: 1fr 1fr 1fr; 
-    margin:auto;}
-
-.gambar .foto img{
-    width: 300px;}
-
-.foto {
-    border: 1px solid black; 
-    margin:10px; 
-    text-align: center; }
-
-.foto a{
-    border: 1px solid green; 
-    padding:10px; color: white; 
-    background: green; 
-    text-decoration: none; 
-    border-radius: 20px; 
-    cursor: pointer;}
-
-.footer {
-    text-align: center; 
-    margin: 20px; 
-    color: white; 
-    background: green; 
-    height: 70px;}
-
-.footer p{
-    padding-top:25px;
-}
-
-.footer a{
-    text-decoration: none; 
-    color: white; 
+div.footer{
+    height: 160px;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
 }
