@@ -57,8 +57,9 @@
     border-width: 1px;
     border-style: solid;
     padding-bottom: 12px;
-    border-radius: 8px;
-    border-color: #DDD;
+    border-radius: 12px;
+    border-color: brown;
+    box-shadow: 4px 4px 10px grey;
     overflow: hidden;
 }
 
@@ -110,6 +111,7 @@ a {
 .header img{
     width: 100%;
     height: 320px;
+    padding-top: 24px;;
 }
 
 .header .title {
@@ -117,12 +119,13 @@ a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     top: 0;
     left: 0;
-    background-color: #555;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     padding: 12px 24px;
     border: none;
-    border-radius: 4px;
+    border-bottom-right-radius: 24px;
+    overflow: hidden;
+    background: rgba(73, 5, 5, 0.5);
 }
 
 .btn-checkout{
@@ -235,8 +238,6 @@ h1 {
 strong {
     color: white
 }
-
-
 
 .contact .form .form-subjek {
     color:white;
