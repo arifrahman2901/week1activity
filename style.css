@@ -4,21 +4,12 @@
 }
 
 .nav-bar {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
     display: flex;
     flex-direction: row;
     background: saddlebrown;
 }
 
 .nav-bar-index {
-    display: flex;
-    flex-direction: row;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-.nav-bar-outlet {
     display: flex;
     flex-direction: row;
     background: rgba(0, 0, 0, 0.5);
