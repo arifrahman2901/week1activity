@@ -4,8 +4,8 @@
 }
 
 .nav-bar {
-    position: fixed;
-    z-index: 9999;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -36,6 +36,14 @@
     height: 36px;
     width: 36px;
     padding: 12px;
+    position: relative;
+}
+
+.nav-bar .logo, .nav-bar-index {
+    background-color: brown;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .welcome-message {
@@ -55,8 +63,7 @@
     font-weight: bold;
     align-items: center;
     color: white;
-    margin-right: 28px;
-
+    margin-right: 50px;    
 }
 
 .container-flex {
