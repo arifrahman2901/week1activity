@@ -143,3 +143,24 @@ div.footer{
     color: white;
 }
 
+.home {
+    background: url("./img/home.jpg") 80px -100px;
+    padding: 10%;
+}
+
+.btn {
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(53, 46, 44, 0.9);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin-top: 120px;
+    margin-left: 700px; 
+    text-decoration: none;
+    transition: opacity 1s ease-in;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
