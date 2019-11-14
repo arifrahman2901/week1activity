@@ -54,8 +54,10 @@ div.content {
     padding-right: 12px;
 }
 
-.desc{
+.content h3 {
     padding: 12px 0px;
+    font-size: 20px;
+    text-align: center;
 }
 
 div.card-footer {
@@ -113,7 +115,7 @@ a {
 .btn-checkout{
     padding: 12px 24px;
     margin: 24px 8px;
-    background: orangered;
+    background: brown;
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -140,3 +142,4 @@ div.footer{
     flex-direction: column;
     color: white;
 }
+
