@@ -164,3 +164,67 @@ div.footer{
 .btn:hover{
     opacity: 0.7;
 }
+
+.order {
+    height: 160px;
+    background: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+form {
+    padding: 7% 6%;
+    background-image: url("./img/backgound.jpeg");
+}
+
+
+#form {
+    padding-top: 10px;
+}
+
+.form-control {
+    width: 100%;
+    border-radius: 8px;
+    color: #c69c6d;
+    border: none;
+    background-color: #252525;
+    position: relative;
+    font-size: 14px;
+    line-height: 2.3;
+    display: block;
+}
+
+fieldset #form-subjek, #form-nama, #form-numberhp, #email {
+    width: 100%;
+    height: 40px;
+    color: black;
+    z-index: 1;
+    border-radius: 10%;
+}
+
+fieldset #form-pesan {
+    width: 100%;
+    height: 100px;
+    color: black;
+    z-index: 1;
+    padding-top: 15px;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+strong {
+    color: white
+}
+
+
+
+.contact .form .form-subjek {
+    color:white;
+}
