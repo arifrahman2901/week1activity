@@ -40,6 +40,21 @@
     padding: 56px 0px 24px 0px
 }
 
+.search {
+    display: flex;
+    flex: 1;
+    margin: 12px 12px;
+    border-radius: 8px;
+    justify-content: flex-end;
+    border-radius: 8px;
+}
+
+.btn-search{
+    margin: 0px 12px;
+    padding: 0px 12px;
+    border-radius: 8px;
+}
+
 .nav-bar-index > a,
 .nav-bar-outlet > a,
 .nav-bar > a{
