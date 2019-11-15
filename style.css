@@ -7,12 +7,18 @@
     display: flex;
     flex-direction: row;
     background: saddlebrown;
+    position: fixed;
+    width: 100%;    
+    z-index: 10;
 }
 
 .nav-bar-index {
     display: flex;
     flex-direction: row;
     background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
 
 #img-header{
@@ -37,16 +43,12 @@
 .nav-bar-index > a,
 .nav-bar-outlet > a,
 .nav-bar > a{
-    font-size: 20px;
-    padding-left: 40px;
-    display: flex;
-    flex-direction: row;
+    display: inline-block;
     flex-wrap: wrap;
     font-family: 'Varela Round', sans-serif;
-    font-weight: bold;
-    align-items: center;
+    font-weight: 700;
     color: white;
-    margin-right: 28px;
+    margin: auto 24px;
 
 }
 
