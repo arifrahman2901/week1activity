@@ -272,6 +272,10 @@ label {
     text-align: center;
 }
 
+.input-search {
+    border-radius: 8px;
+}
+
 .successpay {
     background: rgba(0, 0, 0, 0.75);
     padding: 24px;
